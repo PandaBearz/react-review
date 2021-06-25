@@ -1,5 +1,16 @@
 {
     "cSpell.ignoreWords": [
-        "class"
+        "campsite",
+        "class",
+        "id"
+    ],
+    "spellright.language": [
+        "en"
+    ],
+    "spellright.documentTypes": [
+        "markdown",
+        "latex",
+        "plaintext",
+        "javascript"
     ]
 }

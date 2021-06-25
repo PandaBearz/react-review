@@ -6,7 +6,7 @@ class CampsiteInfo extends Component {
     renderComments(comments) {
         if(comments) {
             return (
-                <div class="col-md-5 m-1">
+                <div className="col-md-5 m-1">
                     <h4>Comments</h4>
                     <div>
                         {comments.map((c) => 
@@ -23,7 +23,7 @@ class CampsiteInfo extends Component {
     }
     renderCampsite(campsite) {
         return (
-            <div class="col-md-5 m-1">
+            <div className="col-md-5 m-1">
                 <Card>
                     <CardImg top src={campsite.image} alt={campsite.name} />
                     <CardBody>
@@ -36,12 +36,17 @@ class CampsiteInfo extends Component {
     }
     render() {
             if(this.props.campsite) {
-                return <div class="row">
-                    {this.renderCampsite(this.props.campsite)}
-                    {this.renderComments(this.props.campsite.comments)}
-                </div>
+                return (
+                    <div className="container">
+                        <div className="row">
+                            {this.renderCampsite(this.props.campsite)}
+                            {this.renderComments(this.props.campsite.comments)}
+                        </div>
+                    </div>
+                );
             } 
-                return <div/>
+            
+            return <div/>
     }
 }
 

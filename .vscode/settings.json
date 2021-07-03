@@ -2,7 +2,8 @@
     "cSpell.ignoreWords": [
         "campsite",
         "class",
-        "id"
+        "id",
+        "reactstrap"
     ],
     "spellright.language": [
         "en"
@@ -10,10 +11,12 @@
     "spellright.documentTypes": [
         "markdown",
         "latex",
-        "plaintext",
-        "javascript"
+        "plaintext"
     ],
     "cSpell.words": [
-        "contactus"
+        "aboutus",
+        "contactus",
+        "div",
+        "reactstrap"
     ]
 }

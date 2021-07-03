@@ -21,7 +21,9 @@ class Header extends Component {
 
     render() {
         return (
-            <React.Fragment>
+            <React.Fragment> 
+            {/* React Fragment Used So You Don't Have To Use Div Cause Return Always Must Return One JSX element, Shorthand Version <> </>  */}
+        
                 <Jumbotron fluid>
                     <div className="container">
                         <div className="row">

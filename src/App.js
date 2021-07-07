@@ -5,7 +5,9 @@ import { Provider } from 'react-redux';
 import { ConfigureStore } from './redux/configureStore';
 import './App.css';
 
-const store = ConfigureStore();
+const store = ConfigureStore(
+    window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+);
 
 class App extends Component {
 
